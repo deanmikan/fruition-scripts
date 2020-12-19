@@ -123,7 +123,7 @@ div.notion-topbar-mobile > div:nth-child(1n).toggle-mode {
 }
 
 /* Remove unnecessary components of collection block */
-.notion-collection_view-block > div:first-child {
+.notion-collection_view-block > div:first-child > div {
   display: none !important;
 }
 
